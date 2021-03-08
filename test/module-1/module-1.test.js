@@ -35,7 +35,7 @@ describe('module 1', () => {
 
       it('has a post method @set-the-encoding', () => {
         expect(
-            'POST',
+            'post',
             'the `form` does not have a `method` of `post`'
         ).to.equal(R.pathOr(undefined, ['attributes', 'method', 'value'], form));
       });
